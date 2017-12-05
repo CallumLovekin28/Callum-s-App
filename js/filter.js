@@ -66,8 +66,8 @@ function filterAndSortList(completeList, filters)
             if (typeof itemValue == 'number')
             {
                 // if the value is a number, it will check if the number is in between 4 and 5
-                var min = 4;
-                var max = 5;
+                var min = 5;
+                var max = 10;
                 return itemValue >= min && itemValue <= max;
             }
             if (typeof itemValue == 'boolean')
